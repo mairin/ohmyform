@@ -45,8 +45,8 @@ ENV PORT=3000 \
     SECRET_KEY=ChangeMe \
     CREATE_ADMIN=FALSE \
     ADMIN_EMAIL=admin@ohmyform.com \
-    ADMIN_USERNAME=root \
-    ADMIN_PASSWORD=root
+    ADMIN_USERNAME=ohmyform \
+    ADMIN_PASSWORD=ohmyform
 
 EXPOSE 3000
 USER ohmyform
